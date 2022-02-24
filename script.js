@@ -72,8 +72,6 @@ function randomAmount(max) {
     return Math.floor(Math.random() * max);
 }
 
-// I got it to change the amount but not sure if i need to display the amount or if this is good?
-
 // Charge function
 
 function charge() {
@@ -102,7 +100,3 @@ let max = `${demo.balance}`;
 function openAct() {
     demo.updateSum();
 }
-
-
-// write coed to get withdrawls from form and deposits from from.
-// use dom to display withdrawls and deposits.
