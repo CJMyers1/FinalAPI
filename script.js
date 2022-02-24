@@ -1,5 +1,5 @@
 const sum = document.getElementById("balance-sum")
-const apiWeatherURL = 'http://api.weatherapi.com/v1/current.json?key=9ab4a5c267064722a4f150354221802&q=84074&aqi=no';
+const apiWeatherURL = 'https://api.weatherapi.com/v1/current.json?key=9ab4a5c267064722a4f150354221802&q=84074&aqi=no';
 const demo = new Bank(1, 'XXXX-XXXX-XX34-1', 300);
 const statement = document.getElementById("statement");
 
